@@ -1,5 +1,5 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "To Do List",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aamirkhan2478/webpack-boilerplate.git"
+    "url": "git+https://github.com/Rana-Mudassir/to-do-list.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mudassir Nazir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aamirkhan2478/webpack-boilerplate/issues"
+    "url": "https://github.com/Rana-Mudassir/to-do-list/issues"
   },
-  "homepage": "https://github.com/aamirkhan2478/webpack-boilerplate#readme",
+  "homepage": "https://github.com/Rana-Mudassir/to-do-list#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
