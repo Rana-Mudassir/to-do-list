@@ -10,15 +10,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TayyabKM/to-do-list.git"
+        "url": "git+https://github.com/Rana-Mudassir/to-do-list.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/TayyabKM/to-do-list/issues"
+        "url": "https://github.com/Rana-Mudassir/to-do-list/issues"
     },
-    "homepage": "https://github.com/TayyabKM/to-do-list#readme",
+    "homepage": "https://github.com/Rana-Mudassir/to-do-list#readme",
     "devDependencies": {
         "babel-eslint": "^10.1.0",
         "css-loader": "^6.7.1",
