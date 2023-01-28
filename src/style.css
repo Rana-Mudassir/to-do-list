@@ -11,7 +11,7 @@ header {
 }
 
 .main-section {
-  align-self: center;  
+  align-self: center;
   justify-content: center;
   display: flex;
 }
@@ -27,7 +27,7 @@ input:placeholder-shown {
 }
 
 .main-cont {
-  box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.70);
+  box-shadow: 0 0 10px -2px hsla(0, 0%, 0%, 0.7);
   min-width: 52%;
   background-color: white;
 }
