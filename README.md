@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a name="readme-top">TO Do List</a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -26,65 +26,36 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome-Books] <a name="about-project"></a>
+# 📖 [TO Do List] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[TO Do List]**  allows you to mark main tasks listed by the user as complete. You can built a simple website that allows for doing that, and you will do it using ES6 with Webpack!
 
-**[Awesome-Books]** is a web app for adding & removing books in a list of books.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
 - JavaScript
+- ES6 Modules
 
 <!-- ### Tech Stack <a name="tech-stack"></a>
-
-<!-- ### Tech Stack <a name="tech-stack"></a> -->
-
-<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
-<!--
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
- -->
  
 <!-- Features -->
 
  ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Responsive]**
 - **[Dynamic-Pages]**
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Graphical styling**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://rana-mudassir.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,26 +142,7 @@ Example:
 - GitHub: [@githubhandle](https://github.com/Rana-Mudassir)
 - LinkedIn: [@LinkedIn](https://www.linkedin.com/in/rana-mudassir-nazir-03541114a/)
 
-👤 **Mohammad Suliman Joya**
-
-- GitHub: [@githubhandle](https://github.com/SulimanJoya)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/sjoya66/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-<!-- ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -237,6 +189,10 @@ I would like to thank...
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Microverse
+- W3Schools Website 
 
 ## 📝 License <a name="license"></a>
 
