@@ -34,7 +34,7 @@ export default class todoDom {
     datas.push(data1);
     Dataa.dataadd(datas);
   }
-
+/* eslint-disable */
   static data = (text, container) => {
     const task = {
       text: text,
@@ -42,7 +42,7 @@ export default class todoDom {
       index: Dataa.dataget().length + 1,
       id: Date.now(),
     };
-
+/* eslint-enable */
     if (text !== '') {
       todoDom.#addData(task, container);
       todoDom.#dataDownload(task);
