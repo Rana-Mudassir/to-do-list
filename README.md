@@ -47,14 +47,15 @@
 - **[Responsive]**
 - **[Dynamic-Pages]**
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Graphical styling**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]( https://livedemo.com )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,6 +189,10 @@ I would like to thank...
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Microverse
+- W3Schools Website 
 
 ## 📝 License <a name="license"></a>
 
