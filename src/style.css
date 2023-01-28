@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display&family=Poppins:wght@200;300;400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.main-section {
+  align-self: center;  
+  justify-content: center;
+  display: flex;
+}
+
+.main-title-h2 {
+  font-size: 22px;
+  font-weight: 502;
+}
+
+input:placeholder-shown {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.main-cont {
+  box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.70);
+  min-width: 52%;
+  background-color: white;
+}
+
+.main-title {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-bottom: 2px rgb(88 86 86 / 31%) solid;
+  padding: 0 32px;
+}
+
+.main-title i {
+  color: grey;
+}
+
+.input-cont {
+  justify-content: space-between;
+  border-bottom: 2px rgb(88 86 86 / 31%) solid;
+  display: flex;
+}
+
+.input-cont i {
+  color: rgba(128, 128, 128, 0.62);
+  margin-right: 36px;
+}
+
+.list-input {
+  outline: none;
+  border: none;
+  padding: 21px 0 21px 30px;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.list-btn {
+  border: none;
+  background-color: transparent;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  display: flex;
+}
+
+.main-body-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-body-li {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 17px 0 17px 25px;
+  border-bottom: 2px rgb(88 86 86 / 31%) solid;
+}
+
+.main-body-li i {
+  padding: 0 36px 0 0;
+  color: rgba(128, 128, 128, 0.62);
+}
+
+.clear-btn {
+  font-size: 22px;
+  border: none;
+  width: 100%;
+  color: rgb(128, 128, 128);
+  padding: 21px 0;
+}
+
+.clear-btn:hover {
+  background-color: rgb(202, 201, 201);
+}
+
+.green-bg {
+  background-color: rgb(237, 231, 150);
+}
+
+.data-text {
+  outline: none;
+  border: none;
+  font-size: 20px;
+  width: 81%;
+}
+
+.width {
+  width: 100%;
+}
+
+.text-dec {
+  text-decoration: line-through;
+  color: rgb(180, 180, 18);
+}
