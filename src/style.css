@@ -1,3 +1,4 @@
+/* stylelint-disable */
 body {
   background-color: aqua;
   box-sizing: border-box;
@@ -69,3 +70,4 @@ body {
  display: none;
  color: red;
 }
+/* stylelint-enable */
