@@ -1,14 +1,21 @@
-import './style.css';
-import * as base from './module/base.js';
+import AddList from "./modules/addList.js";
+import ClearCompletedTasks from "./modules/clearCompletedTasks.js";
+import ShowList from "./modules/showList.js";
+import { textBox, clearCompletedTasks } from "./modules/getElements.js";
+import "./style.css";
 
-const inputBttn = document.querySelector('.list-btn');
-const inputdata = document.querySelector('.list-input');
-const applist = document.querySelector('.main-body-ul');
-const clearBttn = document.querySelector('.clear-btn');
+document.addEventListener("DOMContentLoaded", () => {
+  textBox.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      const listAdd = new AddList();
+      listAdd.addList();
+    }
+  });
+  clearCompletedTasks.addEventListener("click", () => {
+    const clearAllCompleted = new ClearCompletedTasks();
+    clearAllCompleted.clearCompletedTasks();
+  });
 
-base.creatDataByEnter(inputdata, applist, inputdata);
-base.creatData(inputdata, applist, inputBttn);
-base.removData(applist);
-base.modifydata(applist);
-base.loaddata(applist);
-base.registerclearBtnListener(clearBttn);
+  const listShow = new ShowList();
+  listShow.showList();
+});

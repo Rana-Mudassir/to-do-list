@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <script src="https://kit.fontawesome.com/e2597287a1.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>To Do List</title>
   </head>
   <body>
-    <div id="td1" class="app-cont">
-      <header>
-        <h1 id="td2" class="header-title">To Do List</h1>
-      </header>
-      <main>
-        <section class="main-section">
-          <div class="main-cont">
-            <div class="main-title">
-              <h2 id="ts1" class="main-title-h3">Today To Do</h2>
-              <i class="fa-solid fa-arrows-rotate"></i>
-            </div>
-            <div class="main-body">
-              <div class="input-cont">
-                <input class="list-input" type="text" name="list-input" id="list-input" required placeholder="Add to your list">
-                <button id="ts2" type="submit" class="list-btn"><i class="fa-solid fa-turn-down fa-rotate-90"></i></button>
-              </div>
-              <ul class="main-body-ul">
-              </ul>
-              <button id="ts3" class="clear-btn">Clear all completed</button>
-            </div>
-          </div>
-        </section>
-      </main>
+    <div class="data-container">
+      <h1>Todo List</h1>
+      <div class="data">
+        <div class="textbox-container">
+          <input
+            type="text"
+            placeholder="Add to your list"
+            class="text-input"
+            id="textBox"
+          />
+          <i class="fa fa-reply"></i>
+        </div>
+        <div id="items"></div>
+        <div class="clear-completed-task" id="clear-task">Clear all completed</div>
+      </div>
     </div>
-    <script src="./index.js" type="module"></script>
   </body>
 </html>
